@@ -125,7 +125,7 @@ try:
 
     # Запись DataFrame в файл Excel
     df.to_excel('results.xlsx', index=False)
-
+    # w
 finally:
     # Закрытие браузера в любом случае
     driver.quit()
